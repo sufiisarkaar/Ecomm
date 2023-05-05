@@ -1,0 +1,34 @@
+<div class="container mt-4">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12 col-sm-4 col-lg-4 content ">
+<h4 class="mt-4 ">Title</h4>
+
+<p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tenetur iusto soluta quibusdam pariatur nam quaerat impedit nihil voluptas, 
+Mollitia dolorum iure odio minus natus in eligendi atque commodi eum iste, ratione placeat, ipsa ab dolor corporis culpa inventore odit fugit nisi, aspernatur repellendus vitae ullam! Laboriosam, qui assumenda?</p>
+        </div>
+
+        <div class="col-12 col-sm-4 col-lg-4  imageCart text-center" >
+            <img src="../../../assets/61050397.jpg" alt="Image Not Found" class="img-fluid rounded-2" style="height: 250px;"/>
+
+            <div class="price d-flex justify-content-evenly ">
+                <b class="mt-2">Grand Total :</b>
+                <p class="text-success mt-2"> ₹ {{ totalPrice }}</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 col-lg-4  Quantity text-center mt-2">
+            <button class="btn btn-danger col-4" (click)="minusQuantity()">-</button>
+            <input type="text" name="quantity" class="form-input col-2 btn border-danger " value="{{ quantity }}" disabled>
+            <button class="btn btn-danger col-4" (click)="plusQuantity()">+</button>
+
+            <div class="topic col-12 mt-3 mb-3">
+                <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate maiores molestias ratione ducimus dicta odio itaque corrupti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda lapti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda lapti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda la pti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda lapti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda lapti. Velit tempora molestiae eos beatae, corporis, es nisi sequi eius eaque ratione perferendis fuga! Obcaecati nam cupiditate molestiae, deleniti assumenda laborum rem laudantium dolore ex possimus.</small>
+                <div class="btnPlace mt-4 mb-2">
+                    <button class="btn btn-success">Place Order</button>
+                </div>
+              
+            </div>
+
+        </div>
+    </div>
+</div>
