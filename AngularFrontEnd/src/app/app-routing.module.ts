@@ -8,12 +8,12 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { RegisterComponent } from './components/register/register.component';
 
 const routes: Routes = [
-  {path: "", component:ContentComponent},
-  {path: "cart", component:AddToCartComponent},
-  {path: "about", component:AboutComponent},
-  {path: "login", component:LoginComponent},
-  {path: "signup", component:RegisterComponent},
-  {path: "profile", component:ProfileComponent},
+  { path: "", component: ContentComponent },
+  { path: "cart", component: AddToCartComponent },
+  { path: "about", component: AboutComponent },
+  { path: "login", component: LoginComponent },
+  { path: "signup", component: RegisterComponent },
+  { path: "profile", component: ProfileComponent },
 
 ];
 

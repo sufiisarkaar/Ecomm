@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('item_image');
             $table->string('item_dsc');
             $table->string('item_qty');
-            $table->string('user_id');
+           
             $table->timestamps();
         });
     }

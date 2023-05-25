@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Items;
 
+
 class itemsController extends Controller
 {
     public function postData(Request $request){
@@ -15,8 +16,7 @@ class itemsController extends Controller
        $items->item_image = $request->item_image;
        $items->item_dsc = $request->item_dsc;
        $items->item_qty = $request->item_qty;
-       $items->user_id = $request->user_id;
-       $items->save();
+        $items->save();
 
        return ["Results" => "Item Has Been Posted", $items];
 
